@@ -1,0 +1,234 @@
+  body {
+            background: linear-gradient(to right, #5618ba, #280621);
+            margin: 30px;
+            margin-top; 30px;
+        }
+
+        .botaopp:hover {
+            background-color: hsla(240, 100%, 50%, 0.6);
+        }
+
+       .botaop:hover {
+            background-color: hsla(240, 100%, 50%, 0.6);
+        }
+
+        .container1 {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            place-items: center;
+        }
+
+        .titulo {
+            color: white;
+            font-size: 40px;
+            font-family: Arial, sans-serif;
+            font-style: italic;
+        }
+         
+        .stitulo {
+            margin-right: 50px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            color: #f0f0f0;
+        }
+
+        .imagen {
+            margin: 10px;
+            width: 200px !important; /* Tamanho fixo da imagem */
+            height: 200px; /* Mantém a proporção da imagem */
+            max-width: 100%; /* Garantia de que a imagem não ultrapasse o contêiner */
+        }
+
+        .text-p {
+            max-width: 60%;
+            margin-right: 80px;
+        }
+
+
+        .topo {
+           text-align: center;
+           color: white;
+           font-family: Arial, sans-serif;
+           font-size: 18px;
+           font-style: italic; 
+           align-items: center;
+           line-height: 2px;
+           padding-top: 15px;
+        }
+
+         .centro {
+     align-items: center;
+     text-align: center;
+     padding-top: 10px;
+     color: #ffffff;
+     font-family: Arial, sans-serif;
+ } 
+
+
+         .grid {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-column-gap: 10px;
+     grid-row-gap: 10px;
+     padding: 10px;
+}
+  
+         .tituloc {
+             color: white;
+             font-size: 24px;
+             font-family: Arial, sans-serif;
+}
+
+        .imgs { 
+           height: 6rem;
+           widht: 6rem;
+}
+
+        .botaopp { 
+            font-family: Arial, sans-serif;
+            display: inline-block;
+            background-color: green;
+            margin: 0 auto;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 8px;
+            color: white;
+            line-height: 2px;
+}
+
+       .botaop { 
+            font-family: Arial, sans-serif;
+            display: inline-block;
+            background-color: purple;
+            margin: 0 auto;
+            padding: 10px;
+            gap: 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            color: white;
+            line-height: 1px;
+}
+
+                    
+        a {
+         color: white;
+         text-decoration: none;
+} 
+
+   h3 {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+   }
+
+    
+
+   .old-price {
+    position: relative;
+    display: inline-block;
+  }
+
+  .old-price::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: red;
+    transform: rotate(-10deg);
+  }
+
+    .tela {
+       border-radius: 4px;
+       border-style: solid;
+       border-color: white;
+       border-width: 1px;
+       text-align: center; 
+       font-family: Arial, sans-serif; 
+       padding: 10px; 
+}
+    
+   .tela2 {
+       border-radius: 4px;
+       border-style: solid;
+       border-color: white;
+       border-width: 1px; 
+       font-family: Arial, sans-serif; 
+       padding: 5px;
+       margin: 0 auto;
+}
+
+        
+
+        /* Responsividade para telas menores que 768px (celulares) */
+        @media screen and (max-width: 768px) {
+
+          body {
+            margin: 10px;
+            }
+           
+          .topo {
+            font-size: 14px;
+            }
+
+          .grid {
+            grid-template-columns: repeat(2,1fr);
+            }
+            
+          .imgs { 
+            height: 4rem;
+            widht: 4rem;
+            } 
+     
+          .botaopp { 
+            padding: 5px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 10px;
+          }
+
+         .botaopp { 
+            padding: 2px;
+            text-decoration: none;
+            border-radius: 2px;
+            font-size: 10px;
+          }
+
+      
+           .tituloc {
+             font-size: 12px;
+          }
+
+        .container1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .titulo {
+            color: white;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            font-style: italic;
+        }
+
+        .imagen {
+            margin: 0;
+            width: 100px !important; /* Tamanho fixo da imagem */
+            height: 100px; /* Mantém a proporção da imagem */
+            max-width: 100%; /* Garantia de que a imagem não ultrapasse o contêiner */
+        }
+
+        .text-p {
+            max-width: 60%;
+            margin-right: 25px;
+        }
+      
+        h5 {
+          font-size: 10px;
+}
+
+
+
